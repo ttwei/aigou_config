@@ -4,7 +4,7 @@ spring:
   application:
     name: aigou-plat-test
 eureka:
-  client:
+  client: 
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
